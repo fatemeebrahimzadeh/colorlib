@@ -1,0 +1,130 @@
+.nav {
+  background-image: url("/images/hero_2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+* ::after ::before {
+  box-sizing: border-box;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.centrize * {
+  margin: auto;
+  text-align: center;
+}
+
+.eatery {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+.nav {
+  font-family: "Open Sans", Arial, sans-serif;
+  height: 721px;
+}
+
+.nav__row {
+  margin: auto;
+  padding: 20px;
+  line-height: 1;
+  height: 20px;
+  width: 80%;
+  display: flex;
+}
+.nav__row * {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+.nav__row ul {
+  display: flex;
+}
+.nav__row ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+  list-style-type: none;
+}
+.nav__row ul .dropdown {
+  position: relative;
+}
+.nav__row ul .dropdown--content {
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0 2px 30px 0px rgba(0, 0, 0, 0.2);
+  min-width: 13em;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  z-index: 1;
+  text-align: left;
+}
+.nav__row ul .dropdown--content a {
+  width: 13em;
+  padding: 0.25rem 1.5rem;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  background: none;
+  border: 0;
+  display: block;
+}
+.nav__row ul .dropdown--content a:hover {
+  background-color: #cf1d16;
+}
+.nav__row ul .dropdown:hover .dropdown--content {
+  display: block;
+}
+
+#contact {
+  background-color: #cf1d16;
+  padding: 10px 20px;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+}
+
+#contact:hover {
+  color: #cf1d16;
+  background-color: #fff;
+}
+
+#nav__div {
+  width: 1000px;
+  padding: 100px;
+  padding-bottom: 50px !important;
+  margin-top: 100px !important;
+  margin: auto;
+  text-align: center;
+}
+#nav__div h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+#nav__div * {
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+}
+
+.btn__el {
+  border: 2px solid white;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  font-weight: 400;
+  text-align: center;
+  margin: auto;
+}/*# sourceMappingURL=nav.css.map */

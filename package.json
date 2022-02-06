@@ -1,0 +1,31 @@
+{
+  "name": "mypractice",
+  "version": "1.0.0",
+  "description": "for showing what I do to growing up my skills",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatemeebrahmzadeh/mypractice.git"
+  },
+  "keywords": [
+    "Mountain@69"
+  ],
+  "author": "fateme ebrahimzadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatemeebrahmzadeh/mypractice/issues"
+  },
+  "homepage": "https://github.com/fatemeebrahmzadeh/mypractice#readme",
+  "devDependencies": {
+    "surge": "latest",
+    "git-scripts": "0.2.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain example-githooks.surge.sh"
+    }
+  }
+}
